@@ -1,0 +1,1 @@
+function o(r,e){typeof e.type=="symbol"?Array.isArray(e.children)===!0&&e.children.forEach(t=>{o(r,t)}):r.add(e)}function i(r){const e=new Set;return r.forEach(t=>{o(e,t)}),Array.from(e)}function a(r){return r.appContext.config.globalProperties.$router!==void 0}function n(r){return r.isUnmounted===!0||r.isDeactivated===!0}export{n as a,i as g,a as v};
